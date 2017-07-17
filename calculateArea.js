@@ -19,7 +19,7 @@ function calculateCircleArea (radius) {
     return("undefined");
   }
   else {
-    return( Math.PI * (radius ^ 2));
+    return(Math.PI * (radius * radius));
   }
 }
 
